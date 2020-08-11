@@ -1,0 +1,67 @@
+
+.box {
+	/* height: 100vh; */
+	margin: 0;
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 1024px;
+
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+
+	/* Set up positioning */
+	/* position: fixed; */
+	top: 0;
+	left: 0;
+	padding: 0;
+	/* z-index: 0; */
+}
+.image {
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 1024px;
+
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+
+	/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 0;
+	background-size: contain;
+	z-index: -1;
+}
+
+.text {
+	/* position: absolute; */
+	padding-top: 10%;
+	font-size: 2rem;
+	font-weight: 900;
+	text-align: center;
+	/* z-index: 1; */
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
+/* MEDIA */
+@media screen and (max-width: 1024px) {
+	/* Specific to this particular image */
+	.img {
+		left: 50%;
+		margin-left: -512px; /* 50% */
+	}
+}
