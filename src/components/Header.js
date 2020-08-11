@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 import HCol from './HeadCol';
-import background from '../assets/shroom.jpg';
+// import background from '../assets/shroom.jpg';
 
 function Header() {
 	const textSize = (window.innerHeight > 1500) ? '10rem' : '8rem'
