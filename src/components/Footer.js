@@ -4,7 +4,7 @@ class Footer extends Component {
     return (
       <footer>
         <div>
-          Footer component
+          Thanks for visiting! This website is a work in progress, feel free to email me at [my name] @ angelhacks.org!
         </div>
       </footer>
     )
